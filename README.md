@@ -3,11 +3,11 @@
 This project using Vue 3 + Typescript + Vite
 
 Build Setup
-# install dependencies
+## install dependencies
 npm install
 
-# serve with hot reload at localhost:3000
+## serve with hot reload at localhost:3000
 npm run dev
 
-# build for production with minification
+## build for production with minification
 npm run build
