@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-
 const currentPlayer = ref('X')
 const gameState = ref(["", "", "", "", "", "", "", "", ""]);
 const winningConditions = [
@@ -69,7 +68,6 @@ function handleRestartGame() {
     currentPlayer.value = "X";
     gameState.value = ["", "", "", "", "", "", "", "", ""];
     gameStatus.value = currentPlayerTurn();
-    document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
 }
 </script>
 
