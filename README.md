@@ -1,7 +1,7 @@
 # Mini game (Tic tac toe)
 
-This project using Vue 3 + Typescript + Vite
-Addition, it also using `<scrip setup>`.
+This project is using Vue 3 + Typescript + Vite
+Addition, it is also using `<scrip setup>`.
 Reference link: https://vuejs.org/api/sfc-script-setup.html
 
 Build Setup
