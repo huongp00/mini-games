@@ -1,13 +1,17 @@
 {
+  "homepage": "http://huongp00.github.io/mini-games/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d dist -b master"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "vue": "^3.2.25"
   },
   "devDependencies": {
